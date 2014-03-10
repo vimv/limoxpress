@@ -4,3 +4,8 @@ Author: Victor Ivan Mendez Valencia (coffy team member)
 Description: Back & Body NY responsive website based on bootstrap
 Version: 1.0
 */
+
+html, body{
+  margin: 0;
+  padding:0;
+}
