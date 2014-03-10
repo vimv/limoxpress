@@ -1,12 +1,12 @@
-<? 
+<?php
 
 // Add scripts and styles to front-end
-function backandbody_scripts() {
+function limoxpress_scripts() {
 
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
 	
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'backkandbody', get_template_directory_uri() . '/js/limoxpress.js', array('jquery') );
+	wp_enqueue_script( 'limoexpress', get_template_directory_uri() . '/js/limoxpress.js', array('jquery') );
 
 }
 add_action( 'wp_enqueue_scripts', 'limoxpress_scripts' );
@@ -32,3 +32,4 @@ register_sidebar( array(
 ) );
 
 
+?>
