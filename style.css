@@ -27,6 +27,10 @@ html, body {
 	src: url('fonts/Arial Narrow Bold Italic.ttf') format('truetype');
 }
 
+.fluid-container {
+	
+}
+
 .container {
 	/*border: 1px solid red;*/
 	margin-top: 30px;
@@ -159,6 +163,90 @@ hr.divider-secction {
 	margin-top: 30px;
 	border-width: 1px;
 	border-color: #505151;
+}
+
+.menu-footer {
+	position: relative;
+}
+
+.bg-footer {
+	/*position: relative;*/
+	position: absolute;
+	right: 0px;
+	bottom: -25px;
+	z-index: -9999;
+}
+
+.img-footer {
+	/*position: absolute;
+	right: -15px;
+	bottom: -340px;*/
+}
+
+li.widget {
+	list-style: none;
+}
+
+.menu-footer p, a.link-menu-footer {
+	color: #585858;
+	font-size: 14px;
+	font-family: "Arial Narrow";
+	line-height: 16px;
+}
+
+.telnumber {
+	font-size: 18px;
+}
+
+.menu-footer h5 {
+	font-family: "Arial NarroW Bold";
+	text-transform: uppercase;
+}
+
+ul.social-btns {
+	list-style-type: none;
+	margin-left: 1px;
+}
+
+ul.social-btns li {
+	/*float: left;*/
+	cursor: pointer;
+	margin-right: 5px;
+	width: 24px;
+	height: 24px;
+}
+
+li.face {
+	background-image: url(img/facebook.png);
+}
+
+li.twit {
+	background-image: url(img/twitter.png);
+}
+
+li.plus {
+	background-image: url(img/gplus.png);
+}
+
+
+li.yout {
+	background-image: url(img/youtube.png);
+}
+
+ul.menu {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.menu li a {
+	color: #585858;
+	font-size: 14px;
+	font-family: "Arial Narrow";
+	line-height: 14px;
+}
+
+a.link-menu-footer:hover {
+	text-decoration: underline;
 }
 
 

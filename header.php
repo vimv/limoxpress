@@ -43,6 +43,7 @@
 					</ul>
 		  		</div>
 			</div>
+
 			<div class="row menu-header">
 				<div class="col-xs-12 col-sm-4">
 					<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" class="img-responsive logo" />
@@ -56,6 +57,13 @@
 		  					'menu_class' =>'list-inline navbar-right') //nav navbar-nav
 		  				);
 		  			?>
-
 				</div>
 			</div>
+
+			<div class="row slider-header">
+				<div class="col-xs-12">
+					<?php putRevSlider("slider-home"); ?>
+				</div>
+			</div>
+
+			<div class="container">

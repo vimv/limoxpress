@@ -1,14 +1,5 @@
 <?php get_header(); ?>
 
-	<div class="row slider-header">
-		<div class="col-xs-12">
-			<?php putRevSlider("slider-home"); ?>
-		</div>
-	</div>
-
-
-	<div class="container">
-
 		<div class="row columns-servs">
 			<div class="col-xs-12 col-md-4">
 				<img src="<?php echo get_bloginfo('template_url') ?>/img/col1.jpg" class="img-responsive center-block" /><br>
@@ -39,8 +30,8 @@
 				<p class="text-justify text-servs">For over thirty years we have been considered the leaders as well as the innovators in the limousine service industry fostering long term relationships with our clients. Utilizing the latest in cutting edge technology no other Bergen County NJ Limousine Service can compare with our consistent level of on time performance and dependability. Our large meticulously maintained fleet includes the latest model Limos, Limousines, Sedans, Executive Vans and our popular SUV's. <br><br> Lorem ipsum dolor sit amet, magna interpretaris vim an, eos veri perpetua efficiendi ei. Sed et tritani corpora splendide, veri phaedrum his cu. Viris graeci ei has, vim id hinc posidonium, eos alterum nusquam posidonium eu. Aperiri accusam an sea. Mis vim an, eos veri perpetua efficiendi ei. Sed et i perpetua efficiendi ei. Sed et tri ipsum dolor sit amet, magna interpretaris vim an, eos veri perpetua . Nodi ei. Sed et i perpetua efficiendi ei. Sum dolor sit amet, magna interpretaris vim an.</p><br><br>
 			</div>
 			<div class="col-xs-12 col-md-4 news-sidebar">
-				<?php if ( is_active_sidebar( 'right-sidebar' ) ) : ?>
-					<?php dynamic_sidebar( 'Right Page Sidebar' ); ?>
+				<?php if ( is_active_sidebar( 'home-right-sidebar' ) ) : ?>
+					<?php dynamic_sidebar( 'Home Page Sidebar' ); ?>
 				<?php else : ?>
 				<h4>News</h4><br>
 				<h5><strong>Super Bowl Boulevard Is In High Gear</strong></h5><br>
@@ -68,11 +59,5 @@
 				<img src="<?php echo get_bloginfo('template_url') ?>/img/logohome5.png" class="img-responsive" />
 			</div>
 		</div>
-
-		<hr class="divider-secction">
-
-
-	
-	</div>
 
 <?php get_footer(); ?>

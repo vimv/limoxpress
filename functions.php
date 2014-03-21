@@ -17,20 +17,49 @@ register_nav_menus( array(
 add_theme_support( 'post-thumbnails' ); 
 
 register_sidebar( array(
-    'id'          => 'right-sidebar',
-    'name'        => 'Right Page Sidebar',
-    'description' => 'Right Sidebar of a normal page',
+    'id'          => 'home-right-sidebar',
+    'name'        => 'Home Page Sidebar',
+    'description' => 'Home Sidebar',
     'before_widget' => '',
     'after_widget' => '',
     'before_title' => '<h4 class="widget-title">',
     'after_title' => '</h4>'
 ) );
 
+register_sidebar( array(
+    'id'          => 'post-sidebar',
+    'name'        => 'Post Sidebar',
+    'description' => 'Post Sidebar',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<h4>',
+    'after_title' => '</h4>'
+) );
 
 register_sidebar( array(
-    'id'          => 'footer-sidebar',
-    'name'        => 'Footer Page Sidebar',
-    'description' => 'Footer Sidebar',
+    'id'          => 'footer-left-sidebar',
+    'name'        => 'Footer Left Sidebar',
+    'description' => 'Footer Left Sidebar',
+) );
+
+register_sidebar( array(
+    'id'          => 'footer-middle-sidebar',
+    'name'        => 'Footer Middle Sidebar',
+    'description' => 'Footer Middle Sidebar',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<h5>',
+    'after_title' => '</h5>'
+) );
+
+register_sidebar( array(
+    'id'          => 'footer-right-sidebar',
+    'name'        => 'Footer Right Sidebar',
+    'description' => 'Footer Right Sidebar',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<h5>',
+    'after_title' => '</h5>'
 ) );
 
 function excerpt_read_more_link($output) {
