@@ -37,6 +37,16 @@ register_sidebar( array(
 ) );
 
 register_sidebar( array(
+    'id'          => 'page-sidebar',
+    'name'        => 'Page Sidebar',
+    'description' => 'Page Sidebar',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<h4>',
+    'after_title' => '</h4>'
+) );
+
+register_sidebar( array(
     'id'          => 'footer-left-sidebar',
     'name'        => 'Footer Left Sidebar',
     'description' => 'Footer Left Sidebar',

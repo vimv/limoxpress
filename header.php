@@ -46,7 +46,9 @@
 
 			<div class="row menu-header">
 				<div class="col-xs-12 col-sm-4">
-					<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" class="img-responsive logo" />
+					<a href="<?php bloginfo('home') ?>">
+						<img src="<?php echo get_bloginfo('template_url') ?>/img/logo.png" class="img-responsive logo" />
+					</a>
 				</div>
 		  		<div class="col-xs-12 col-sm-8">
 		  			<?php
@@ -59,11 +61,3 @@
 		  			?>
 				</div>
 			</div>
-
-			<div class="row slider-header">
-				<div class="col-xs-12">
-					<?php putRevSlider("slider-home"); ?>
-				</div>
-			</div>
-
-			<div class="container">

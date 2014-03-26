@@ -77,6 +77,8 @@ li.ocard {
 	margin: 20px auto 0 auto;
 }
 
+/*-------------------------MENU STYLES--------------------------*/
+
 .menu-header ul {
 	text-transform: uppercase;
 	margin-top: 40px;
@@ -99,6 +101,8 @@ li.ocard {
 	text-decoration: none;
 	border-bottom: 1px solid #535353;
 }
+
+/*-------------------------------------------------------------*/
 
 .slider-header > div {
 	

@@ -2,7 +2,10 @@
 
 				<div class="row menu-footer">
 					<div class="col-xs-12 col-sm-4 col-md-3 center-block">
-						<img src="<?php echo get_bloginfo('template_url') ?>/img/logo-small.png" class="img-responsive logo" /><br>
+						<a href="<?php bloginfo('home') ?>">
+							<img src="<?php echo get_bloginfo('template_url') ?>/img/logo-small.png" class="img-responsive logo" />
+						</a>
+						<br>
 						<?php if ( is_active_sidebar( 'footer-left-sidebar' ) ) : ?>
 							<?php dynamic_sidebar( 'Footer Left Sidebar' ); ?>
 						<?php else : ?>
