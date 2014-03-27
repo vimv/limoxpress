@@ -15,11 +15,6 @@
 								Hackensack, NJ 07601
 							</p><br>
 							<p>
-								<strong>Limo Express</strong><br>
-								725 Main Street<br>
-								Hackensack, NJ 07601
-							</p><br>
-							<p>
 								Toll Free <span class="telnumber">800.221.2345</span><br>
 								Local <span class="telnumber">201.343.3488</span>
 							</p><br>

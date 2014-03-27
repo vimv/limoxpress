@@ -9,8 +9,10 @@ add_action( 'wp_enqueue_scripts', 'limoxpress_scripts' );
 // Hides Top Admin Bar
 //add_filter( 'show_admin_bar', '__return_false' );
 
+require_once('classes/wp_bootstrap_navwalker.php');
+
 register_nav_menus( array(
-	'main_nav' 		=> 'Main Navigation',
+	'main_nav' 		=> __('Main Navigation', 'Limo Express'),
 	'footer_menu' 	=> 'Footer Menu'
 ) );
 
@@ -77,7 +79,4 @@ function excerpt_read_more_link($output) {
  return $output . ' ... <a href="'. get_permalink($post->ID) . '">READ MORE</a>';
 }
 //add_filter('the_excerpt', 'excerpt_read_more_link');
-
-
-
 ?>

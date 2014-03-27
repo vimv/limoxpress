@@ -77,11 +77,60 @@ li.ocard {
 	margin: 20px auto 0 auto;
 }
 
+.tp-bullets {
+	z-index: 99 !important;
+}
+
 /*-------------------------MENU STYLES--------------------------*/
+
+/*---------------Menu Widget Uber Menu Custom-------------------*/
+
+#menu-widget-ubermenu {
+
+}
+
+.menu-widget-ubermenu {
+	font-family: "Arial Narrow", Arial;
+	color: #303030;
+	text-transform: initial;
+}
+
+.title-ubermenu {
+	line-height: 18px;
+}
+
+.title-ubermenu .h1-ubermenu {
+	font-size: 24px !important;
+	text-transform: uppercase;
+}
+
+.title-ubermenu .h2-ubermenu {
+	font-size: 18px !important;
+	text-transform: uppercase;
+}
+
+.shortext-ubermenu {
+	font-size: 18px;
+}
+
+.desctext-ubermenu {
+	font-size: 12px;
+	text-align: justify;
+}
+
+/*-------------------------------------------------------------*/
+
+.position-navbar {
+	margin-top: 40px;
+}
+
+.dropdown-menu li {
+
+}
 
 .menu-header ul {
 	text-transform: uppercase;
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 }
 
 .menu-header ul li {
@@ -99,7 +148,11 @@ li.ocard {
 
 .menu-header ul li a:hover {
 	text-decoration: none;
-	border-bottom: 1px solid #535353;
+	/*border-bottom: 1px solid #535353;*/
+}
+
+.menu-header ul li a:focus {
+	text-decoration: none;
 }
 
 /*-------------------------------------------------------------*/
@@ -259,6 +312,10 @@ a.link-menu-footer:hover {
 
 	.logo {
 		margin: 20px 0 0 0;
+	}
+
+	.dropdown-menu li {
+		border-right: 0 !important;
 	}
 
 	.menu-header ul li {

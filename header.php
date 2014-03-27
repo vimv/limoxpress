@@ -52,12 +52,26 @@
 				</div>
 		  		<div class="col-xs-12 col-sm-8">
 		  			<?php
-		  				wp_nav_menu( array(
+		  				/*wp_nav_menu( array(
 		  					'menu' => 'Main Navigation',
 		  					'container' => 'ul',
 					        'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
 		  					'menu_class' =>'list-inline navbar-right') //nav navbar-nav
-		  				);
+		  				);*/
 		  			?>
+
+		  			<?php
+						wp_nav_menu( array(
+							'menu'              => 'primary',
+							'theme_location'    => 'main_nav',
+							'depth'             => 2,
+							'container'         => 'div',
+							'container_class'   => 'collapse navbar-collapse position-navbar',
+							'container_id'      => 'bs-example-navbar-collapse-1',
+							'menu_class'        => 'list-inline navbar-right',
+							'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+							'walker'            => new wp_bootstrap_navwalker())
+						);
+					?>
 				</div>
 			</div>
